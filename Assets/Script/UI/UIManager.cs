@@ -52,7 +52,7 @@ public class UIManager : MonoBehaviour
 			Time.timeScale = 0f;
 			ReviveScene.SetActive(true);
 		}
-		else if (Input.GetKeyDown(KeyCode.Escape))
+		else if (Input.GetKeyDown(KeyCode.Escape) && StateManager.Instance.GetState() != StateManager.States.DeadState)
 		{
 			isPause = !isPause;
 			if (!isPause)
