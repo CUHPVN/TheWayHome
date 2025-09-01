@@ -49,7 +49,7 @@ public class LoginSystem : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Đăng nhập thất bại.");
+                //Debug.LogError("Đăng nhập thất bại.");
             }
         });
         LootLockerSDKManager.GetSingleKeyPersistentStorage("avar", (response) =>
@@ -69,17 +69,17 @@ public class LoginSystem : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogWarning("Key 'avar' tồn tại nhưng chưa có giá trị.");
+                    //Debug.LogWarning("Key 'avar' tồn tại nhưng chưa có giá trị.");
                     LootLockerSDKManager.UpdateOrCreateKeyValue("avar","0", (response) =>
                     {
                         if (response.success)
                         {
-                            Debug.Log("Avatar người chơi đã được gán!");
+                            //Debug.Log("Avatar người chơi đã được gán!");
                             LoginSystem.Instance.Login();
                         }
                         else
                         {
-                            Debug.LogError("Không thể gán avatar.");
+                            //Debug.LogError("Không thể gán avatar.");
                         }
                     }
         );
@@ -101,13 +101,13 @@ public class LoginSystem : MonoBehaviour
             if (response.success)
             {
                 string newID = response.player_id.ToString();
-                Debug.Log($"Player mới (Slot {slot}): {newID}");
+                //Debug.Log($"Player mới (Slot {slot}): {newID}");
 
                 PlayerPrefs.SetString($"TestPlayerID_Slot{slot}", newID);
             }
             else
             {
-                Debug.LogError("Không thể tạo player mới.");
+                //Debug.LogError("Không thể tạo player mới.");
             }
         });
     }

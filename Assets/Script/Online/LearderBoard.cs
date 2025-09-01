@@ -29,7 +29,7 @@ public class LearderBoard : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Gửi điểm số thất bại, hãy bật wifi và chơi ở loading scene!");
+                //Debug.LogError("Gửi điểm số thất bại, hãy bật wifi và chơi ở loading scene!");
             }
         });
     }
@@ -39,11 +39,11 @@ public class LearderBoard : MonoBehaviour
         {
             if (response.success)
             {
-                Debug.Log("Tên người chơi đã được gán!");
+                //Debug.Log("Tên người chơi đã được gán!");
                 LoginSystem.Instance.Login();
             }
-            else
-                Debug.LogError("Không thể gán tên.");
+            
+                //Debug.LogError("Không thể gán tên.");
         });
 
     }
@@ -58,7 +58,7 @@ public class LearderBoard : MonoBehaviour
         }
             else
         {
-            Debug.LogError("Không thể gán avatar.");
+            //Debug.LogError("Không thể gán avatar.");
         }
         }
         );
@@ -71,8 +71,8 @@ public class LearderBoard : MonoBehaviour
         {
             if (!response.success)
             {
-                Debug.Log("Could not get the entry!");
-                Debug.Log(response.errorData.ToString());
+                //Debug.Log("Could not get the entry!");
+                //Debug.Log(response.errorData.ToString());
                 score = 0;
                 return;
             }
@@ -113,7 +113,7 @@ public class LearderBoard : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Lấy danh sách bảng xếp hạng thất bại.");
+                //Debug.LogError("Lấy danh sách bảng xếp hạng thất bại.");
             }
         });
     }
@@ -136,7 +136,7 @@ public class LearderBoard : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning($"Không thể lấy avar cho playerId: {playerId}");
+                //Debug.LogWarning($"Không thể lấy avar cho playerId: {playerId}");
                 onAvarReceived?.Invoke(null);
             }
             
