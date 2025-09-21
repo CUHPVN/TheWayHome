@@ -4,7 +4,7 @@
 
 **Thời gian phát triển:** 03/2025 - 04/2025  
 **Vai trò:** Unity Developer (Dự án cá nhân - sản phẩm đầu tay trong CLB Nhà Sáng Tạo Game PTIT)  
-**Tải game tại đây:** (https://plantcraft94.itch.io/the-way-home)
+**Tải game tại đây:** (https://plantcraft94.itch.io/the-way-home)  
 **Xem gameplay tại đây:**
 
 [![Xem trailer](https://img.youtube.com/vi/W3GiV4K9eTo/0.jpg)](https://youtu.be/W3GiV4K9eTo)
