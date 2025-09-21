@@ -41,7 +41,7 @@
 ## Credits
 
 - **Dev:** Phạm Văn Phúc [[Facebook](https://www.facebook.com/cuhpvn)]  
-- **Dev:** Đỗ Thanh Tùng [[Itch](https://plantcraft94.itch.io)]
+- **Dev:** Đỗ Thanh Tùng [[Git](https://github.com/plantcraft94)]
 - **Art:** Phạm Trung Nguyên [[Facebook](https://www.facebook.com/pham.nguyen.491195)] 
 - *Đặc biệt cảm ơn những Game Assets chất lượng và sự hỗ trợ từ Nguyên và Tùng*
 
