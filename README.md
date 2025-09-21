@@ -1,4 +1,4 @@
-## Dự Án Game: Candy Pipe - Thử Thách Xoắn Não! 🍩🍭
+## Dự Án Game: The Way Home - Chạy Đi! 🏃‍♂️
 
 [<img src="https://github.com/user-attachments/assets/dabe4f53-fcfb-4e3f-bdd8-a8ebdddf2423" alt="CLB Nhà Sáng Tạo Game PTIT Logo" width="30"/> **CLB Nhà Sáng Tạo Game PTIT**](https://www.facebook.com/gamecreatorsclub)
 
@@ -6,44 +6,43 @@
 **Vai trò:** Unity Developer (Dự án cá nhân - sản phẩm đầu tay trong CLB Nhà Sáng Tạo Game PTIT)  
 **Xem gameplay tại đây:**
 
-
-
-//https://github.com/user-attachments/assets/98fa05e1-6868-4c1f-a778-cc2e04833428
-
+(https://youtu.be/W3GiV4K9eTo)
 
 ---
 
 ### Tổng quan dự án:
 
-**Candy Pipe** là một tựa game giải đố 2D hấp dẫn, nơi người chơi được thử thách khả năng tư duy logic và không gian của mình. Với đồ họa kẹo ngọt bắt mắt và gameplay lôi cuốn, mục tiêu là xoay và kết nối các đoạn ống để tạo thành đường dẫn hoàn chỉnh, giúp chiếc bánh Donut tinh nghịch lăn đến đích.
+**The Way Home** là một tựa game Endless Runner hấp dẫn, nơi người chơi phải khéo léo né tránh chướng ngại vật và vượt qua thử thách để tiến xa nhất có thể. Với đồ họa rừng núi sống động và gameplay lôi cuốn, mục tiêu là tìm con đường trở về nhà trong chuyến phiêu lưu bất tận.
 
 ---
 
 ## Các tính năng và công nghệ nổi bật:
 
-- **Lối chơi độc đáo:** Cơ chế xoay ống kết hợp chuyển động vật lý của Donut tạo nên màn giải đố thú vị, đòi hỏi tư duy và phản xạ linh hoạt.  
-- **Hệ thống màn chơi phong phú:** Mức độ khó tăng dần, có thể lưu/tiếp tục màn chơi với Level Manager & Loader.  
-- **Thử thách và phần thưởng:** Mỗi màn được tính thời gian, thu thập tối đa 3 sao tùy thành tích, có thêm chướng ngại như BlackHole.  
-- **UI thân thiện:** Giao diện rõ ràng cho các màn hình Menu, Trong game, Win/Lose, Cài đặt, có hướng dẫn chi tiết cho người mới.  
-- **Trải nghiệm người chơi:** Tích hợp mạng sống (Hearts) và tính năng xem quảng cáo nhận phần thưởng, tăng gắn bó.  
-- **Công cụ phát triển:** Tự xây Level Editor ngay trong Unity Editor, hỗ trợ tạo và test màn nhanh chóng.  
-- **Hiệu ứng camera động:** Sử dụng Cinemachine để theo dõi Donut hoặc toàn cảnh màn chơi mượt mà.
+- **Lối chơi Endless Runner:** Người chơi điều khiển nhân vật chạy liên tục trong khung cảnh rừng núi, né tránh chướng ngại vật, vượt vực sâu và thu thập vật phẩm để tiến xa nhất có thể.
+- **Hệ thống màn chơi phong phú:** Nhiều loại map dựa trên các loại cơ chế khác nhau tạo hành trình phong phú, với độ khó tăng dần theo quãng đường.
+- **Thử thách và phần thưởng:** Hệ thống điểm số, coin, và item hỗ trợ (power-up) khuyến khích người chơi cạnh tranh và quay lại nhiều lần.
+- **UI thân thiện:** Giao diện rõ ràng cho các màn hình Menu, Win/Lose, Cài đặt, có hướng dẫn chi tiết cho người mới, dễ thao tác cả trên PC và Mobile.
+- **Trải nghiệm người chơi:** Hồi sinh bằng coin, ghi lại điểm số lên bảng xếp hạng.  
+- **Leaderboard toàn cầu:** Tích hợp LootLocker để lưu trữ và hiển thị bảng xếp hạng trực tuyến, cho phép người chơi cạnh tranh thành tích với cộng đồng.
+- **Hồ sơ người chơi:** Hỗ trợ avatar tùy chỉnh và đổi tên nhân vật, đồng bộ với leaderboard.
+- **Công cụ phát triển:** Object Pooling để spawn địa hình & chướng ngại vật, Level Manager để quản lý trạng thái chơi.
 
 ---
 
 ## Công nghệ sử dụng:
 
-`Unity Engine`, `C#`, `DOTween`, `Cinemachine`
+`Unity Engine`, `C#`, `DOTween`
 
-**Mã nguồn:** [GitHub - Candy Pipe](https://github.com/nmd-nkl/2025G-Jan-ChuTuyetNhi.git)
+**Mã nguồn:** [GitHub - The Way Home](https://github.com/CUHPVN/TheWayHome.git)
 
 ---
 
 ## Credits
 
-- **Dev:** Chu Tuyết Nhi [[Facebook cá nhân](https://www.facebook.com/raccoon.994576/)]  
-- **Art:** Phùng Hải Yến [[Facebook cá nhân](https://www.facebook.com/haiyen121209)] 
-- *Đặc biệt cảm ơn những Game Assets chất lượng và sự hỗ trợ từ Hải Yến 💜*
+- **Dev:** Phạm Văn Phúc [[Facebook cá nhân](https://www.facebook.com/cuhpvn)]  
+- **Dev:** Đỗ Thanh Tùng [[Facebook cá nhân](https://www.facebook.com/othanhtung.67054)]
+- **Art:** Phạm Trung Nguyên [[Facebook cá nhân](https://www.facebook.com/pham.nguyen.491195)] 
+- *Đặc biệt cảm ơn những Game Assets chất lượng và sự hỗ trợ từ Nguyên và Tùng*
 
 ---
 
