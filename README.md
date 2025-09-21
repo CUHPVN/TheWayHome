@@ -8,6 +8,7 @@
 
 [![Xem trailer](https://img.youtube.com/vi/W3GiV4K9eTo/0.jpg)](https://youtu.be/W3GiV4K9eTo)
 
+**Tải game tại đây:** (https://plantcraft94.itch.io/the-way-home)
 ---
 
 ### Tổng quan dự án:
