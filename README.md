@@ -6,7 +6,7 @@
 **Vai trò:** Unity Developer (Dự án cá nhân - sản phẩm đầu tay trong CLB Nhà Sáng Tạo Game PTIT)  
 **Xem gameplay tại đây:**
 
-(https://youtu.be/W3GiV4K9eTo)
+[![Xem trailer](https://img.youtube.com/vi/W3GiV4K9eTo/0.jpg)](https://youtu.be/W3GiV4K9eTo)
 
 ---
 
